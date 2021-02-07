@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 5opx;
+}
+
+.tomato-highlight{
+    color: tomato;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+    
+.half-width img{
+    width: 90%;
+}
+
+.more-btn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient( 45deg, tomato, #f56bd7 );
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.download-btn{
+    width: 200px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient( 45deg, tomato, #f56bd7 );
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.top-bg{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+
+.Mdl-bg{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.exp-bg{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.text-justify{
+    text-align: justify;
+}
+.text-center{
+
+text-align: center;
+
+}
+
+.exp-box{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px 0px 5px 5px;
+    height: 80%;
+    margin: 2%;
+   
+  
+
+}
+
+#exp-box-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,white);
+    border-image-slice: 1;
+}
+
+#exp-box-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(71, 41, 241),white);
+    border-image-slice: 1;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
